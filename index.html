@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie & and Bluey funny</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #87CEEB;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            transition: all 0.3s ease-in-out;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+        .joke {
+            font-size: 20px;
+            font-weight: bold;
+            color: #FF4500;
+            margin-top: 10px;
+            transition: color 0.3s ease-in-out;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: showJokes 1s forwards ease-in-out;
+        }
+        .joke:nth-child(2) { animation-delay: 0.5s; }
+        .joke:nth-child(3) { animation-delay: 1s; }
+        .joke:nth-child(4) { animation-delay: 1.5s; }
+        .joke:nth-child(5) { animation-delay: 2s; }
+        .joke:nth-child(6) { animation-delay: 2.5s; }
+        .joke:nth-child(7) { animation-delay: 3s; }
+        .joke:nth-child(8) { animation-delay: 3.5s; }
+        .joke:nth-child(9) { animation-delay: 4s; }
+        .joke:nth-child(10) { animation-delay: 4.5s; }
+        @keyframes showJokes {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+            transition: color 0.3s ease-in-out;
+        }
+        .contact:hover {
+            color: #222;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome charlie to my website ! </h1>
+        <p>This website was designed in my own way It’s safe don’t worry and l hope you laugh! and l  Hope you like it. 😆</p>
+        
+        <img src="charlie-cox.jpg" alt="Charlie Cox" />
+        
+        <div class="card">
+            <h2>Who Am I? </h2>
+            <p>I'm Abdullah Al-Shehri, 16 years old, and I love Charlie Cox! My dream is to talk to him one day.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Random Dad Jokes 🤣</h2>
+            <p class="joke">Why did the scarecrow win an award? Because he was outstanding in his field! 🌾😂</p>
+            <p class="joke">What do you call fake spaghetti? An impasta! 🍝😂</p>
+            <p class="joke">Why don’t skeletons fight each other? They don’t have the guts! 💀😂</p>
+            <p class="joke">Why don’t eggs tell jokes? Because they might crack up! 🥚😂</p>
+            <p class="joke">I told my wife she should embrace her mistakes. She gave me a hug. 🤗😂</p>
+            <p class="joke">Why did the math book look sad? Because it had too many problems. 📖😂</p>
+            <p class="joke">Did you hear about the cheese factory that exploded? There was nothing left but de-brie. 🧀😂</p>
+            <p class="joke">Why can’t you give Elsa a balloon? Because she will let it go! 🎈😂</p>
+            <p class="joke">What do you call a fish with no eyes? Fshhhh! 🐟😂</p>
+            <p class="joke">Parallel lines have so much in common. It’s a shame they’ll never meet. 📏😂</p>
+        </div>
+        
+
+
+        
+        <div class="card contact">
+            <h2>📩 Contact</h2>
+            <p>You can reach me at: <strong>ekwnh321@gmail.com</strong></p>
+            <p>my instagram <strong>@fanforddandcharliecox</strong></p>
+        </div>
+        <img src="when l see you.jpg" alt="the end " />
+        <img src="dude.jpg" alt="the end " />
+        <img src="The T.jpg" alt="the end " />
+        <img src="ddandcharlie.jpg" alt="the end " />
+    </div>
+</body>
+</html>
